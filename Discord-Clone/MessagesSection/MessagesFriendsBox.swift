@@ -13,7 +13,7 @@ struct MessagesFriendsBox: View {
                 Rectangle()
                     .frame(width: 90, height: 90)
                     .clipShape(RoundedRectangle(cornerRadius: 18))
-                    .foregroundStyle(.black)
+                    .foregroundStyle(Color(red: 33/255, green: 34/255, blue: 43/255))
                 Circle()
                     .frame(width: 48, height: 48)
                     .foregroundStyle(.white)

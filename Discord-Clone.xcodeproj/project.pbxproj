@@ -14,6 +14,8 @@
 		A036752A2B23A1FF00B3DFDF /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03675292B23A1FF00B3DFDF /* MessagesView.swift */; };
 		A036752C2B23A66D00B3DFDF /* MessagesFriendsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A036752B2B23A66D00B3DFDF /* MessagesFriendsBox.swift */; };
 		A036752E2B23ACDD00B3DFDF /* RectangleMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A036752D2B23ACDD00B3DFDF /* RectangleMessagesView.swift */; };
+		A03675332B23B7C300B3DFDF /* DiscordTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03675322B23B7C200B3DFDF /* DiscordTabView.swift */; };
+		A03675352B23C82700B3DFDF /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03675342B23C82700B3DFDF /* UserProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		A03675292B23A1FF00B3DFDF /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		A036752B2B23A66D00B3DFDF /* MessagesFriendsBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesFriendsBox.swift; sourceTree = "<group>"; };
 		A036752D2B23ACDD00B3DFDF /* RectangleMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleMessagesView.swift; sourceTree = "<group>"; };
+		A03675322B23B7C200B3DFDF /* DiscordTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordTabView.swift; sourceTree = "<group>"; };
+		A03675342B23C82700B3DFDF /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				A03675282B23A15700B3DFDF /* App */,
+				A03675312B23B79C00B3DFDF /* MessagesSection */,
 				A036751C2B23A14300B3DFDF /* ContentView.swift */,
 				A036751E2B23A14500B3DFDF /* Assets.xcassets */,
 				A03675202B23A14500B3DFDF /* Preview Content */,
-				A03675292B23A1FF00B3DFDF /* MessagesView.swift */,
-				A036752B2B23A66D00B3DFDF /* MessagesFriendsBox.swift */,
-				A036752D2B23ACDD00B3DFDF /* RectangleMessagesView.swift */,
+				A03675322B23B7C200B3DFDF /* DiscordTabView.swift */,
+				A03675342B23C82700B3DFDF /* UserProfileView.swift */,
 			);
 			path = "Discord-Clone";
 			sourceTree = "<group>";
@@ -82,6 +86,16 @@
 				A036751A2B23A14300B3DFDF /* Discord_CloneApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		A03675312B23B79C00B3DFDF /* MessagesSection */ = {
+			isa = PBXGroup;
+			children = (
+				A036752B2B23A66D00B3DFDF /* MessagesFriendsBox.swift */,
+				A036752D2B23ACDD00B3DFDF /* RectangleMessagesView.swift */,
+				A03675292B23A1FF00B3DFDF /* MessagesView.swift */,
+			);
+			path = MessagesSection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,10 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03675352B23C82700B3DFDF /* UserProfileView.swift in Sources */,
 				A036751D2B23A14300B3DFDF /* ContentView.swift in Sources */,
 				A036751B2B23A14300B3DFDF /* Discord_CloneApp.swift in Sources */,
 				A036752A2B23A1FF00B3DFDF /* MessagesView.swift in Sources */,
 				A036752C2B23A66D00B3DFDF /* MessagesFriendsBox.swift in Sources */,
+				A03675332B23B7C300B3DFDF /* DiscordTabView.swift in Sources */,
 				A036752E2B23ACDD00B3DFDF /* RectangleMessagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
