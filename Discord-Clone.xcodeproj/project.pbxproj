@@ -19,6 +19,7 @@
 		A09782A32B2493BD0035CC75 /* ServerChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09782A22B2493BD0035CC75 /* ServerChatView.swift */; };
 		A09782A52B2494460035CC75 /* ServersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09782A42B2494460035CC75 /* ServersView.swift */; };
 		A09782A72B24F6F50035CC75 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09782A62B24F6F50035CC75 /* MenuView.swift */; };
+		A09782AA2B2503550035CC75 /* ChatViewForServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09782A92B2503550035CC75 /* ChatViewForServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		A09782A22B2493BD0035CC75 /* ServerChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerChatView.swift; sourceTree = "<group>"; };
 		A09782A42B2494460035CC75 /* ServersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersView.swift; sourceTree = "<group>"; };
 		A09782A62B24F6F50035CC75 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		A09782A92B2503550035CC75 /* ChatViewForServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewForServer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				A09782A22B2493BD0035CC75 /* ServerChatView.swift */,
 				A09782A42B2494460035CC75 /* ServersView.swift */,
 				A09782A62B24F6F50035CC75 /* MenuView.swift */,
+				A09782A92B2503550035CC75 /* ChatViewForServer.swift */,
 			);
 			path = Server;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				A036751D2B23A14300B3DFDF /* ContentView.swift in Sources */,
 				A036751B2B23A14300B3DFDF /* Discord_CloneApp.swift in Sources */,
 				A036752A2B23A1FF00B3DFDF /* MessagesView.swift in Sources */,
+				A09782AA2B2503550035CC75 /* ChatViewForServer.swift in Sources */,
 				A09782A72B24F6F50035CC75 /* MenuView.swift in Sources */,
 				A036752C2B23A66D00B3DFDF /* MessagesFriendsBox.swift in Sources */,
 				A09782A32B2493BD0035CC75 /* ServerChatView.swift in Sources */,

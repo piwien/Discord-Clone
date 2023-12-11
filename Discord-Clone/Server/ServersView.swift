@@ -13,9 +13,23 @@ struct ServersView: View {
         ZStack {
             //Menu View
             MenuView()
+            
             //ChatView
-            ServerChatView()
+            ServerChatView(showSideMenu: $showSideMenu)
+                .offset(x: showSideMenu ? 340 : 0)
+            
+            //Color
+            Color.black
+                .opacity(showSideMenu ? 0.7 : 0)
+                .offset(x: showSideMenu ? 340 : 0)
+                .ignoresSafeArea()
+                .onTapGesture {
+                    withAnimation {
+                        showSideMenu = false
+                    }
+                }
         }
+        .toolbar(showSideMenu ? .visible : .hidden, for: .tabBar)
     }
 }
 

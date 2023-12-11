@@ -16,7 +16,7 @@ struct DiscordTabView: View {
     }
     var body: some View {
         TabView {
-            Text("Servers")
+            ServersView()
                 .tabItem {
                     Image(systemName: "server.rack")
                     
