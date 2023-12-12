@@ -16,6 +16,8 @@
 		A036752E2B23ACDD00B3DFDF /* RectangleMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A036752D2B23ACDD00B3DFDF /* RectangleMessagesView.swift */; };
 		A03675332B23B7C300B3DFDF /* DiscordTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03675322B23B7C200B3DFDF /* DiscordTabView.swift */; };
 		A03675352B23C82700B3DFDF /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03675342B23C82700B3DFDF /* UserProfileView.swift */; };
+		A0779B082B2907BD0089E8A5 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0779B072B2907BD0089E8A5 /* AuthView.swift */; };
+		A0779B0A2B29115E0089E8A5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0779B092B29115E0089E8A5 /* SignInView.swift */; };
 		A09782A32B2493BD0035CC75 /* ServerChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09782A22B2493BD0035CC75 /* ServerChatView.swift */; };
 		A09782A52B2494460035CC75 /* ServersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09782A42B2494460035CC75 /* ServersView.swift */; };
 		A09782A72B24F6F50035CC75 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09782A62B24F6F50035CC75 /* MenuView.swift */; };
@@ -33,6 +35,8 @@
 		A036752D2B23ACDD00B3DFDF /* RectangleMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleMessagesView.swift; sourceTree = "<group>"; };
 		A03675322B23B7C200B3DFDF /* DiscordTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordTabView.swift; sourceTree = "<group>"; };
 		A03675342B23C82700B3DFDF /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		A0779B072B2907BD0089E8A5 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		A0779B092B29115E0089E8A5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		A09782A22B2493BD0035CC75 /* ServerChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerChatView.swift; sourceTree = "<group>"; };
 		A09782A42B2494460035CC75 /* ServersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersView.swift; sourceTree = "<group>"; };
 		A09782A62B24F6F50035CC75 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
@@ -69,6 +73,7 @@
 		A03675192B23A14300B3DFDF /* Discord-Clone */ = {
 			isa = PBXGroup;
 			children = (
+				A0779B062B2907AF0089E8A5 /* Auth */,
 				A03675282B23A15700B3DFDF /* App */,
 				A03675312B23B79C00B3DFDF /* MessagesSection */,
 				A09782A82B24F6F90035CC75 /* Server */,
@@ -105,6 +110,15 @@
 				A03675292B23A1FF00B3DFDF /* MessagesView.swift */,
 			);
 			path = MessagesSection;
+			sourceTree = "<group>";
+		};
+		A0779B062B2907AF0089E8A5 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A0779B072B2907BD0089E8A5 /* AuthView.swift */,
+				A0779B092B29115E0089E8A5 /* SignInView.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		A09782A82B24F6F90035CC75 /* Server */ = {
@@ -206,6 +220,7 @@
 			files = (
 				A09782A52B2494460035CC75 /* ServersView.swift in Sources */,
 				A03675352B23C82700B3DFDF /* UserProfileView.swift in Sources */,
+				A0779B082B2907BD0089E8A5 /* AuthView.swift in Sources */,
 				A036751D2B23A14300B3DFDF /* ContentView.swift in Sources */,
 				A036751B2B23A14300B3DFDF /* Discord_CloneApp.swift in Sources */,
 				A036752A2B23A1FF00B3DFDF /* MessagesView.swift in Sources */,
@@ -215,6 +230,7 @@
 				A09782A32B2493BD0035CC75 /* ServerChatView.swift in Sources */,
 				A03675332B23B7C300B3DFDF /* DiscordTabView.swift in Sources */,
 				A036752E2B23ACDD00B3DFDF /* RectangleMessagesView.swift in Sources */,
+				A0779B0A2B29115E0089E8A5 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
