@@ -7,29 +7,9 @@
 
 import SwiftUI
 
-@Observable
-final class AuthViewModel {
-    var signInEmail = ""
-    var signInPassword = ""
-    
-    func logIn() {
-        
-    }
-}
-
-extension EnvironmentValues {
-    var authViewModel: AuthViewModel {
-        get { self[AuthViewModelKey.self]}
-        set { self[AuthViewModelKey.self] = newValue }
-    }
-}
-
-private struct AuthViewModelKey: EnvironmentKey {
-    static var defaultValue: AuthViewModel = AuthViewModel()
-}
-
 struct AuthView: View {
     @State var viewModel = AuthViewModel()
+    
     var body: some View {
         NavigationStack {
             ZStack(alignment:. top) {
@@ -41,7 +21,8 @@ struct AuthView: View {
                     Spacer()
                     
                     NavigationLink {
-                        
+                        EmailView()
+                            .environment(viewModel)
                     } label: {
                         Text("Register")
                             .padding(10)
@@ -55,6 +36,7 @@ struct AuthView: View {
                     
                     NavigationLink {
                         SignInView()
+                            .environment(viewModel)
                     } label: {
                         Text("Login")
                             .padding(10)

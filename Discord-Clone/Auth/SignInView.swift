@@ -27,27 +27,15 @@ struct SignInView: View {
             
             
             VStack(alignment: .leading, spacing: 16) {
-                Text("Account Information")
-                    .font(.footnote)
-                    .padding(.horizontal)
                 
-                TextField("Email", text: $viewModel.signInEmail)
-                    .autocorrectionDisabled()
-                    .textInputAutocapitalization(.never)
-                    .bold()
-                    .foregroundStyle(.gray)
-                    .padding(10)
-                    .background(Color(uiColor: .systemGray5))
-                    .clipShape(RoundedRectangle(cornerRadius: 6))
-                    .shadow(radius: 2)
+                DiscordTextField(header: "Account Information", placeholder: "Email", cornerRadius: 4, shadow: 2, text: $viewModel.signInEmail)
                     .padding(.horizontal)
-                
                 
                 SecureField("Password", text: $viewModel.signInPassword)
                     .bold()
                     .padding(10)
                     .background(Color(uiColor: .systemGray5))
-                    .clipShape(RoundedRectangle(cornerRadius: 6))
+                    .clipShape(RoundedRectangle(cornerRadius: 4))
                     .shadow(radius: 2)
                     .padding(.horizontal)
                 
